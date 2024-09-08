@@ -29,7 +29,7 @@ public class ConsumerDemo {
         //localhost connection
         properties.setProperty("bootstrap.servers", "127.0.0.1:9092");
 
-        //set producer properties
+        //set Consumer properties
         properties.setProperty("key.deserializer", StringDeserializer.class.getName());
         properties.setProperty("value.deserializer", StringDeserializer.class.getName());
 
